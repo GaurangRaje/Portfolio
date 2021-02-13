@@ -40,7 +40,9 @@ nav ul li a{
 	font-margin:700;
 }
 .logo{
-	font-family: RoadTest;
+	font-family:RoadTest;
+	src:
+	url("../roadtest/RoadTest.ttf");
 	color:#000000;
 	font-size:22px;
 }
