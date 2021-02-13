@@ -14,7 +14,13 @@ a{
 section{
 	width:100%;
 	height:95vh;
-	background-image:urk("../images/bg.png")
+	background-image:url("../images/bg.png");
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+nav{
+	display:flex;
+	justify-content:space-between;
+}
+
