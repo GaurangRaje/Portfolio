@@ -216,6 +216,7 @@ button:active{
 	height:40px;
 	border-radius:50%;
 	background-color:#ffffff;
+	display:flex;
 	justify-content:center;
 	align-items:center;
 	font-family:calibri;
