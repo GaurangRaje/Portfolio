@@ -163,7 +163,7 @@ button:active{
 .services-text p:nth-child(1){
 	font-family:calibri;
 	font-weight:bold;
-	color:#3e3d3d;
+	color:#1d1c1c;
 	font-size:30px;
 	line-height:0px;
 }
@@ -177,7 +177,6 @@ button:active{
 .services-text p:nth-child(3){
 	font-family:calibri;
 	color:#7e7d7d;
-	line-height:5px;
 	font-size:;
 }
 
@@ -190,11 +189,12 @@ button:active{
 	height:320px;
 	background-repeat:no-repeat;
 	background-size:cover;
-	box-shadow:2px 2px 12px rgba(0, 0, 0, 0.3);
+	box-shadow:2px 2px 18px rgba(0, 0, 0, 0.3);
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	flex-direction:column;
+	margin: 0px 4px;
 }
 .box-container{
 	display:flex;
@@ -217,6 +217,7 @@ button:active{
 	border-radius:50%;
 	background-color:#ffffff;
 	justify-content:center;
+	display:flex;
 	align-items:center;
 	font-family:calibri;
 	font-weight:bold;
