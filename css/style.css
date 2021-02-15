@@ -40,11 +40,13 @@ nav ul li a{
 	font-margin:700;
 }
 .logo{
-	font-family:RoadTest;
-	src:
-	url("../roadtest/RoadTest.ttf");
-	color:#000000;
-	font-size:22px;
+	background-image: url("../images/GNius.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	width: 86px;
+	height: 86px;
 }
 .active{
 	font-weight:bold;
