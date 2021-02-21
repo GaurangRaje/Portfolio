@@ -161,12 +161,12 @@ button:active{
 	font-family:calibri;
 	background-color:#262525;
 }
-.services{
+/* .services{
 	grid-area: services-text;
 	height:600px;
 	background-color:#ffffff;
 	padding:2% 10% 0px 10%;
-}
+} */
 .services-text p:nth-child(1){
 	font-family:calibri;
 	font-weight:bold;
@@ -192,6 +192,9 @@ button:active{
 	grid-area: services-text;
 	width:500px;
 	margin:50px 0px;
+	height:600px;
+	background-color:#ffffff;
+	padding:2% 10% 0px 10%;
 }
 .box-1, .box-2, .box-3{
 	width:300px;
@@ -204,11 +207,12 @@ button:active{
 	align-items:center;
 	flex-direction:column;
 }
-.box-container{
+/* .box-container{
 	display:flex;
 	justify-content:space-between;
-}
+} */
 .box-1{
+	display:flex;
 	background-image:url("../images/services-1.png");
 }
 .box-2{
@@ -216,7 +220,7 @@ button:active{
 	background-image:url("../images/services-2.png");
 }
 .box-3{
-	
+	display:flex;
 	background-image:url("../images/services-3.png");
 }
 .box-1 span,
