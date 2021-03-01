@@ -46,7 +46,7 @@ a{
     grid-area: logo;
     background-color: white;
 
-    background-image: url("../img/GNius.png");
+    background-image: url("../images/GNius.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 66px 66px;
@@ -86,7 +86,7 @@ main{
     grid-area: main;
     background-color: blue;
 
-    background-image:url("../img/bg.png");
+    background-image:url("../images/bg.png");
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
