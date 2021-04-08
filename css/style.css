@@ -15,11 +15,10 @@ a{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.8fr 1.5fr 1.2fr 1fr 0.5fr 1fr;
+    grid-template-rows: 0.8fr 1.5fr 0.5fr 1fr;
     grid-template-areas: 
     "nav nav nav"
     "main main main"
-    "about about about"
     "projects projects projects"
     "ContactMe ContactMe ContactMe"
     "footer footer footer";
@@ -178,12 +177,7 @@ button:active{
     transform:scale(1.1, 1.1);
 }
 
-.about{
-    grid-area: about;
-    background-color: burlywood;
-    border-radius:var(--main-radius);
-    padding-top: var(--main-padding);
-}
+
 .projects{
     grid-area: projects;
     display: grid;
@@ -330,11 +324,10 @@ footer{
         display: grid;
         height: 100vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 1.4fr 1.5fr 1.2fr 1fr 1fr 1fr;
+        grid-template-rows: 1.4fr 1.5fr 1fr 1fr;
         grid-template-areas: 
         "nav"
         "main"
-        "about"
         "projects"
         "ContactMe"
         "footer";
