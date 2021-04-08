@@ -10,6 +10,8 @@ a{
 }
 
 .container{
+    /* margin-top: 80px;
+    height: calc(100vh-80px); */
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,19 +33,20 @@ a{
 .nav{
     position: sticky;
     top: 0;
-    
+    /* width: 100vw; */
     grid-area: nav;
     display: grid;
     background-color: white;
     box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2);
-    /* position: fixed; */
+    /* position: fixed;
 
-    /* height: 80px; */
+    height: 80px; */
 
     grid-template-columns: 0.2fr 2fr 1fr;
     grid-template-areas: 
     "logo . navbar";
     grid-gap: 0.1rem;
+    z-index: 1000;
 }
 .logo{
     grid-area: logo;
@@ -97,7 +100,7 @@ main{
     border-radius:var(--main-radius);
     padding-top: var(--main-padding);
 
-    z-index: -5;
+
 }
 
 img{
