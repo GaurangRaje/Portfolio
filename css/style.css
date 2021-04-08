@@ -97,7 +97,7 @@ main{
     border-radius:var(--main-radius);
     padding-top: var(--main-padding);
 
-    z-index: -2;
+    z-index: -5;
 }
 
 img{
@@ -162,15 +162,17 @@ img{
 .hire-btn{
     border:2px solid #373636;
     color:#373636;
+    z-index: 100;
 }
 .down-cv{
     background-color:#0b0b0b;
     color:#ffffff;
     border:none;
+    z-index: 100;
 }
 
 button:active{
-    transform:scale(1.1);
+    transform:scale(1.1, 1.1);
 }
 
 .about{
